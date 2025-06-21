@@ -1,0 +1,183 @@
+2025-06-20 19:50:13,810 - root - INFO - --- Initializing Backtester ---
+2025-06-20 19:52:04,194 - root - INFO - --- Initializing Backtester ---
+2025-06-20 19:55:26,246 - root - INFO - --- Initializing Backtester ---
+2025-06-20 19:58:34,934 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:00:21,663 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:01:24,242 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:02:44,097 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:02:44,098 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:03:49,088 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:03:49,088 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:03:49,248 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 20:03:49,267 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 20:03:49,271 - modules.risk_management - INFO - Risk Calc: Balance=$1,000.00, Risk=$10.00, Size=60.7051
+2025-06-20 20:03:49,274 - root - INFO - Simulating BUY: Time=2025-06-17 17:30:00, Price=2.8295, Size=60.7051
+2025-06-20 20:03:49,290 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.3512, PnL=$31.67, New Balance=$1031.67
+2025-06-20 20:03:49,291 - modules.risk_management - INFO - Risk Calc: Balance=$1,031.67, Risk=$10.32, Size=65.9392
+2025-06-20 20:03:49,293 - root - INFO - Simulating BUY: Time=2025-06-18 15:30:00, Price=2.8401, Size=65.9392
+2025-06-20 20:03:49,295 - root - INFO - Simulating CLOSE: Reason=Stop Loss, Price=1.9408, PnL=$-59.30, New Balance=$972.37
+2025-06-20 20:03:49,302 - modules.risk_management - INFO - Risk Calc: Balance=$972.37, Risk=$9.72, Size=58.3609
+2025-06-20 20:03:49,304 - root - INFO - Simulating BUY: Time=2025-06-18 22:30:00, Price=2.8062, Size=58.3609
+2025-06-20 20:03:49,307 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.4275, PnL=$36.26, New Balance=$1008.63
+2025-06-20 20:03:49,309 - modules.risk_management - INFO - Risk Calc: Balance=$1,008.63, Risk=$10.09, Size=65.8376
+2025-06-20 20:03:49,310 - root - INFO - Simulating BUY: Time=2025-06-19 05:00:00, Price=2.8625, Size=65.8376
+2025-06-20 20:03:49,338 - root - INFO - --- Backtest Finished ---
+2025-06-20 20:03:49,339 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 20:03:49,386 - root - INFO - Backtest trade log saved to logs/backtest_trades.csv
+2025-06-20 20:33:02,072 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:33:02,072 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:33:02,249 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 20:33:02,261 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 20:33:02,263 - modules.risk_management - INFO - Risk Calc: Balance=$1,000.00, Risk=$10.00, Size=60.1670
+2025-06-20 20:33:02,264 - root - INFO - Simulating BUY: Time=2025-06-17 17:30:00, Price=2.8295, Size=60.1670
+2025-06-20 20:33:02,271 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.3512, PnL=$31.39, New Balance=$1031.39
+2025-06-20 20:33:02,272 - modules.risk_management - INFO - Risk Calc: Balance=$1,031.39, Risk=$10.31, Size=65.9206
+2025-06-20 20:33:02,273 - root - INFO - Simulating BUY: Time=2025-06-18 15:30:00, Price=2.8401, Size=65.9206
+2025-06-20 20:33:02,275 - root - INFO - Simulating CLOSE: Reason=Stop Loss, Price=1.9408, PnL=$-59.28, New Balance=$972.11
+2025-06-20 20:33:02,280 - modules.risk_management - INFO - Risk Calc: Balance=$972.11, Risk=$9.72, Size=58.3449
+2025-06-20 20:33:02,281 - root - INFO - Simulating BUY: Time=2025-06-18 22:30:00, Price=2.8062, Size=58.3449
+2025-06-20 20:33:02,284 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.1187, PnL=$18.23, New Balance=$990.34
+2025-06-20 20:33:02,287 - modules.risk_management - INFO - Risk Calc: Balance=$990.34, Risk=$9.90, Size=64.6438
+2025-06-20 20:33:02,288 - root - INFO - Simulating BUY: Time=2025-06-19 05:00:00, Price=2.8625, Size=64.6438
+2025-06-20 20:33:02,304 - root - INFO - --- Backtest Finished ---
+2025-06-20 20:50:53,440 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:50:53,440 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:50:53,632 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 20:50:53,650 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 20:50:53,665 - root - INFO - --- Backtest Finished ---
+2025-06-20 20:52:53,956 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:52:53,956 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:52:54,092 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 20:52:54,103 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 20:52:54,121 - root - INFO - --- Backtest Finished ---
+2025-06-20 20:56:55,301 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:56:55,301 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:56:55,471 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 20:56:55,481 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 20:56:55,496 - root - INFO - --- Backtest Finished ---
+2025-06-20 20:59:25,477 - root - INFO - --- Initializing Backtester ---
+2025-06-20 20:59:25,477 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 20:59:25,643 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 20:59:25,655 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 20:59:25,671 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:06:57,214 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:06:57,214 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1000.0
+2025-06-20 21:06:57,390 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 21:06:57,400 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 21:06:57,417 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:11:52,100 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:11:52,101 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:11:52,253 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 21:11:52,263 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 21:11:52,284 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:11:52,284 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 21:11:52,285 - root - WARNING - No trades were executed during the backtest.
+2025-06-20 21:16:05,912 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:16:05,913 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:16:06,094 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 21:16:06,107 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 21:16:06,125 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:16:06,125 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 21:16:06,126 - root - WARNING - No trades were executed during the backtest.
+2025-06-20 21:16:59,760 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:16:59,760 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:16:59,895 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 21:16:59,904 - root - INFO - Loaded and processed 100 candles for backtest.
+2025-06-20 21:16:59,910 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:16:59,911 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 21:16:59,911 - root - WARNING - No trades were executed during the backtest.
+2025-06-20 21:17:07,793 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:17:07,793 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:17:07,938 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 21:17:07,952 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 21:17:07,977 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:17:07,978 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 21:17:07,978 - root - WARNING - No trades were executed during the backtest.
+2025-06-20 21:17:19,078 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:17:19,078 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:17:19,212 - modules.api_integration - INFO - Successfully fetched klines for SUI-USDT-SWAP
+2025-06-20 21:17:19,226 - root - INFO - Loaded and processed 300 candles for backtest.
+2025-06-20 21:17:19,245 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:17:19,245 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 21:17:19,245 - root - WARNING - No trades were executed during the backtest.
+2025-06-20 21:20:43,036 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:20:43,037 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:54:05,418 - root - INFO - --- Initializing Backtester ---
+2025-06-20 21:54:05,418 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 21:54:05,637 - modules.api_integration - INFO - Successfully fetched 300 klines for SUI-USDT-SWAP
+2025-06-20 21:54:05,786 - modules.api_integration - INFO - Successfully fetched 299 klines for SUI-USDT-SWAP
+2025-06-20 21:54:05,934 - modules.api_integration - INFO - Successfully fetched 298 klines for SUI-USDT-SWAP
+2025-06-20 21:54:06,089 - modules.api_integration - INFO - Successfully fetched 297 klines for SUI-USDT-SWAP
+2025-06-20 21:54:06,235 - modules.api_integration - INFO - Successfully fetched 296 klines for SUI-USDT-SWAP
+2025-06-20 21:54:06,251 - root - INFO - Loaded and processed 1490 candles for backtest.
+2025-06-20 21:54:06,272 - modules.risk_management - INFO - Risk Calc: Balance=$1,000.00, Risk=$10.00, Size=102.2005
+2025-06-20 21:54:06,272 - root - INFO - Simulating BUY: Time=2025-06-18 01:45:00, Price=2.8480, Size=102.2005
+2025-06-20 21:54:06,279 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.0890, PnL=$24.63, New Balance=$1,024.63
+2025-06-20 21:54:06,313 - modules.risk_management - INFO - Risk Calc: Balance=$1,024.63, Risk=$10.25, Size=76.5308
+2025-06-20 21:54:06,314 - root - INFO - Simulating BUY: Time=2025-06-19 05:00:00, Price=2.8625, Size=76.5308
+2025-06-20 21:54:06,332 - root - INFO - Simulating CLOSE: Reason=Reversal Signal, Price=2.8438, PnL=$-1.43, New Balance=$1,023.20
+2025-06-20 21:54:06,371 - modules.risk_management - INFO - Risk Calc: Balance=$1,023.20, Risk=$10.23, Size=163.1244
+2025-06-20 21:54:06,371 - root - INFO - Simulating BUY: Time=2025-06-20 11:30:00, Price=2.8489, Size=163.1244
+2025-06-20 21:54:06,375 - root - INFO - --- Backtest Finished ---
+2025-06-20 21:54:06,376 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 21:54:06,394 - root - INFO - Backtest trade log saved to logs/backtest_trades.csv
+2025-06-20 23:41:06,612 - root - INFO - --- Initializing Backtester ---
+2025-06-20 23:41:06,613 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 23:41:06,815 - modules.api_integration - INFO - Successfully fetched 300 klines for SUI-USDT-SWAP
+2025-06-20 23:41:06,965 - modules.api_integration - INFO - Successfully fetched 299 klines for SUI-USDT-SWAP
+2025-06-20 23:41:07,109 - modules.api_integration - INFO - Successfully fetched 298 klines for SUI-USDT-SWAP
+2025-06-20 23:41:07,261 - modules.api_integration - INFO - Successfully fetched 297 klines for SUI-USDT-SWAP
+2025-06-20 23:41:07,402 - modules.api_integration - INFO - Successfully fetched 296 klines for SUI-USDT-SWAP
+2025-06-20 23:41:07,417 - root - INFO - Loaded and processed 1490 candles for backtest.
+2025-06-20 23:41:07,436 - modules.risk_management - INFO - Risk Calc: Balance=$1,000.00, Risk=$10.00, Size=102.2005
+2025-06-20 23:41:07,437 - root - INFO - Simulating BUY: Time=2025-06-18 01:45:00, Price=2.8480, Size=102.2005
+2025-06-20 23:41:07,442 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.0890, PnL=$24.63, New Balance=$1,024.63
+2025-06-20 23:41:07,475 - modules.risk_management - INFO - Risk Calc: Balance=$1,024.63, Risk=$10.25, Size=76.5308
+2025-06-20 23:41:07,476 - root - INFO - Simulating BUY: Time=2025-06-19 05:00:00, Price=2.8625, Size=76.5308
+2025-06-20 23:41:07,492 - root - INFO - Simulating CLOSE: Reason=Reversal Signal, Price=2.8438, PnL=$-1.43, New Balance=$1,023.20
+2025-06-20 23:41:07,514 - modules.risk_management - INFO - Risk Calc: Balance=$1,023.20, Risk=$10.23, Size=163.1244
+2025-06-20 23:41:07,515 - root - INFO - Simulating BUY: Time=2025-06-20 11:30:00, Price=2.8489, Size=163.1244
+2025-06-20 23:41:07,520 - root - INFO - Simulating CLOSE: Reason=Stop Loss, Price=2.7598, PnL=$-14.54, New Balance=$1,008.66
+2025-06-20 23:41:07,523 - root - INFO - --- Backtest Finished ---
+2025-06-20 23:41:07,524 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 23:41:07,540 - root - INFO - Backtest trade log saved to logs/backtest_trades.csv
+2025-06-20 23:43:40,559 - root - INFO - --- Initializing Backtester ---
+2025-06-20 23:43:40,559 - root - INFO - Starting backtest for SUI-USDT-SWAP on 15m with initial balance $1,000.00
+2025-06-20 23:43:40,702 - modules.api_integration - INFO - Successfully fetched 300 klines for SUI-USDT-SWAP
+2025-06-20 23:43:40,845 - modules.api_integration - INFO - Successfully fetched 299 klines for SUI-USDT-SWAP
+2025-06-20 23:43:40,988 - modules.api_integration - INFO - Successfully fetched 298 klines for SUI-USDT-SWAP
+2025-06-20 23:43:41,140 - modules.api_integration - INFO - Successfully fetched 297 klines for SUI-USDT-SWAP
+2025-06-20 23:43:41,290 - modules.api_integration - INFO - Successfully fetched 296 klines for SUI-USDT-SWAP
+2025-06-20 23:43:41,307 - root - INFO - Loaded and processed 1490 candles for backtest.
+2025-06-20 23:43:41,317 - modules.risk_management - INFO - Risk Calc: Balance=$1,000.00, Risk=$10.00, Size=63.6356
+2025-06-20 23:43:41,318 - root - INFO - Simulating BUY: Time=2025-06-17 20:00:00, Price=2.8841, Size=63.6356
+2025-06-20 23:43:41,348 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.3512, PnL=$29.72, New Balance=$1,029.72
+2025-06-20 23:43:41,350 - modules.risk_management - INFO - Risk Calc: Balance=$1,029.72, Risk=$10.30, Size=51.4427
+2025-06-20 23:43:41,351 - root - INFO - Simulating BUY: Time=2025-06-18 15:30:00, Price=2.8401, Size=51.4427
+2025-06-20 23:43:41,353 - root - INFO - Simulating CLOSE: Reason=Stop Loss, Price=1.9408, PnL=$-46.26, New Balance=$983.46
+2025-06-20 23:43:41,357 - modules.risk_management - INFO - Risk Calc: Balance=$983.46, Risk=$9.83, Size=50.6079
+2025-06-20 23:43:41,357 - root - INFO - Simulating BUY: Time=2025-06-18 18:00:00, Price=2.4871, Size=50.6079
+2025-06-20 23:43:41,359 - root - INFO - Simulating CLOSE: Reason=Stop Loss, Price=2.1857, PnL=$-15.25, New Balance=$968.21
+2025-06-20 23:43:41,374 - modules.risk_management - INFO - Risk Calc: Balance=$968.21, Risk=$9.68, Size=311.5708
+2025-06-20 23:43:41,374 - root - INFO - Simulating BUY: Time=2025-06-19 02:45:00, Price=2.8500, Size=311.5708
+2025-06-20 23:43:41,377 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=3.1187, PnL=$83.73, New Balance=$1,051.94
+2025-06-20 23:43:41,381 - modules.risk_management - INFO - Risk Calc: Balance=$1,051.94, Risk=$10.52, Size=78.5709
+2025-06-20 23:43:41,381 - root - INFO - Simulating BUY: Time=2025-06-19 05:00:00, Price=2.8625, Size=78.5709
+2025-06-20 23:43:41,403 - root - INFO - Simulating CLOSE: Reason=Reversal Signal, Price=2.8438, PnL=$-1.47, New Balance=$1,050.47
+2025-06-20 23:43:41,405 - modules.risk_management - INFO - Risk Calc: Balance=$1,050.47, Risk=$10.50, Size=128.5758
+2025-06-20 23:43:41,405 - root - INFO - Simulating BUY: Time=2025-06-19 17:45:00, Price=2.8375, Size=128.5758
+2025-06-20 23:43:41,413 - root - INFO - Simulating CLOSE: Reason=Reversal Signal, Price=2.8417, PnL=$0.54, New Balance=$1,051.01
+2025-06-20 23:43:41,414 - modules.risk_management - INFO - Risk Calc: Balance=$1,051.01, Risk=$10.51, Size=161.4239
+2025-06-20 23:43:41,415 - root - INFO - Simulating BUY: Time=2025-06-19 22:00:00, Price=2.8444, Size=161.4239
+2025-06-20 23:43:41,422 - root - INFO - Simulating CLOSE: Reason=Take Profit, Price=2.9917, PnL=$23.77, New Balance=$1,074.78
+2025-06-20 23:43:41,424 - modules.risk_management - INFO - Risk Calc: Balance=$1,074.78, Risk=$10.75, Size=91.0995
+2025-06-20 23:43:41,424 - root - INFO - Simulating BUY: Time=2025-06-20 03:30:00, Price=2.8178, Size=91.0995
+2025-06-20 23:43:41,468 - root - INFO - Simulating CLOSE: Reason=Reversal Signal, Price=2.8601, PnL=$3.85, New Balance=$1,078.63
+2025-06-20 23:43:41,473 - modules.risk_management - INFO - Risk Calc: Balance=$1,078.63, Risk=$10.79, Size=162.6980
+2025-06-20 23:43:41,484 - root - INFO - Simulating BUY: Time=2025-06-20 10:45:00, Price=2.8610, Size=162.6980
+2025-06-20 23:43:41,491 - root - INFO - Simulating CLOSE: Reason=Stop Loss, Price=2.7928, PnL=$-11.10, New Balance=$1,067.53
+2025-06-20 23:43:41,493 - modules.risk_management - INFO - Risk Calc: Balance=$1,067.53, Risk=$10.68, Size=24.7851
+2025-06-20 23:43:41,494 - root - INFO - Simulating BUY: Time=2025-06-20 15:45:00, Price=2.6581, Size=24.7851
+2025-06-20 23:43:41,496 - root - INFO - --- Backtest Finished ---
+2025-06-20 23:43:41,499 - root - INFO - --- Generating Backtest Report ---
+2025-06-20 23:43:41,524 - root - INFO - Backtest trade log saved to logs/backtest_trades.csv
