@@ -1,37 +1,41 @@
-# File: logging_config.py
-
 import logging
+from logging.handlers import RotatingFileHandler
 import os
+import sys
+from config import LOG_LEVEL, LOG_FILE_PATH, LOG_MAX_BYTES, LOG_BACKUP_COUNT
 
-def setup_logging(log_file='logs/trading_bot.log'):
+def configure_logging():
     """
-    Cấu hình logging để ghi ra file và hiển thị trên console.
-    Linh hoạt hơn bằng cách cho phép chỉ định file log.
+    Cấu hình hệ thống logging tập trung cho toàn bộ ứng dụng.
     """
-    # Tạo thư mục logs nếu nó chưa tồn tại
-    log_dir = os.path.dirname(log_file)
-    if not os.path.exists(log_dir):
-        os.makedirs(log_dir)
+    root_logger = logging.getLogger()
+    log_level_const = getattr(logging, LOG_LEVEL.upper(), logging.INFO)
+    root_logger.setLevel(log_level_const)
+    
+    if root_logger.hasHandlers():
+        root_logger.handlers.clear()
+        
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setFormatter(formatter)
+    console_handler.encoding = 'utf-8'
+    
+    try:
+        os.makedirs(os.path.dirname(LOG_FILE_PATH), exist_ok=True)
+        file_handler = RotatingFileHandler(
+            LOG_FILE_PATH, 
+            maxBytes=LOG_MAX_BYTES, 
+            backupCount=LOG_BACKUP_COUNT,
+            encoding='utf-8' 
+        )
+        file_handler.setFormatter(formatter)
+        root_logger.addHandler(file_handler)
+    except Exception as e:
+        print(f"Lỗi nghiêm trọng khi thiết lập file handler cho logging: {e}")
 
-    # Lấy logger gốc
-    logger = logging.getLogger()
-    logger.setLevel(logging.INFO)
-
-    # Xóa các handler cũ nếu đã tồn tại để tránh log bị lặp
-    if logger.hasHandlers():
-        logger.handlers.clear()
-
-    # Định dạng cho log
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-    # Handler để ghi log ra file
-    file_handler = logging.FileHandler(log_file)
-    file_handler.setFormatter(formatter)
-    logger.addHandler(file_handler)
-
-    # Handler để hiển thị log trên console (màn hình terminal)
-    stream_handler = logging.StreamHandler()
-    stream_handler.setFormatter(formatter)
-    logger.addHandler(stream_handler)
-
-    return logger
+    root_logger.addHandler(console_handler)
+    logging.info("Hệ thống Logging đã được cấu hình thành công.")
